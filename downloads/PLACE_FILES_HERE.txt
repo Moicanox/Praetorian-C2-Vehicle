@@ -1,1 +1,0 @@
-Optional folder for small static public documents. Large/versioned files should be attached to GitHub Releases.

@@ -10,12 +10,15 @@ Static multi-page website prepared for GitHub Pages.
 4. The website will be published at:
    `https://moicanox.github.io/Praetorian-C2-Vehicle/`
 
-## Configure placeholders
+## Configure published resources
 
 Edit `assets/js/config.js`:
 
-- `manualUrl`: direct URL to the user manual.
-- `dataSheetUrl`: direct URL to the data sheet.
+- `manualUrl`: local or remote URL to the operator manual.
+- `brochureUrl`: local or remote URL to the product brochure.
+- `legioConfigUrl`: URL to the LEGIO v2 configuration workbook.
+- `logisticsTemplateUrl`: URL to the logistics configuration template.
+- `dataSheetUrl`: future technical data sheet URL.
 - `trailerEmbedUrl`: YouTube/Vimeo embed URL.
 - `paypalUrl`: PayPal donation link.
 - `paypalQrImage`: local or remote QR image URL.
