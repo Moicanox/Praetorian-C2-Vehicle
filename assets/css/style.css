@@ -158,6 +158,35 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
 
 .doc-card { min-height:250px; display:flex; flex-direction:column; }
 .doc-card .btn { margin-top:auto; align-self:flex-start; }
+
+.manual-downloads {
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:auto;
+}
+
+.doc-card .manual-downloads .btn {
+  margin-top:0;
+  align-self:auto;
+}
+
+.language-download {
+  min-width:150px;
+  justify-content:flex-start;
+  padding:0 16px;
+}
+
+.language-flag {
+  width:44px;
+  height:30px;
+  flex:0 0 auto;
+  object-fit:cover;
+  object-position:center;
+  border-radius:7px;
+  border:1px solid rgba(120,239,255,.42);
+  box-shadow:0 0 14px rgba(37,220,242,.18);
+}
 .timeline { position:relative; display:grid; gap:20px; }
 .timeline::before { content:""; position:absolute; left:16px; top:10px; bottom:10px; width:1px; background:var(--line-strong); }
 .timeline-item { position:relative; padding-left:54px; }

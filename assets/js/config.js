@@ -5,7 +5,8 @@ window.PRAETORIAN_CONFIG = {
   issuesUrl: "https://github.com/Moicanox/Praetorian-C2-Vehicle/issues",
 
   // Documentation resources published directly through GitHub Pages.
-  manualUrl: "downloads/Praetorian_C2_Vehicle_Operator_Manual.pdf",
+  manualItUrl: "downloads/Praetorian_C2_Vehicle_Operator_Manual.pdf",
+  manualEnUrl: "downloads/Praetorian_C2_Vehicle_Operator_Manual_EN.pdf",
   brochureUrl: "downloads/Praetorian_C2_Vehicle_Brochure.pdf",
   legioConfigUrl: "downloads/Praetorian_C2_Vehicle_LEGIO_v2_Configuration.xlsx",
   logisticsTemplateUrl: "downloads/Praetorian_C2_Vehicle_Logistics_Template.xlsx",

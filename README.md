@@ -14,7 +14,8 @@ Static multi-page website prepared for GitHub Pages.
 
 Edit `assets/js/config.js`:
 
-- `manualUrl`: local or remote URL to the operator manual.
+- `manualItUrl`: local or remote URL to the Italian operator manual.
+- `manualEnUrl`: local or remote URL to the English operator manual.
 - `brochureUrl`: local or remote URL to the product brochure.
 - `legioConfigUrl`: URL to the LEGIO v2 configuration workbook.
 - `logisticsTemplateUrl`: URL to the logistics configuration template.
