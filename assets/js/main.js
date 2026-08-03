@@ -44,7 +44,14 @@
 
   const qrBox = qs("[data-paypal-qr]");
   if (qrBox && config.paypalQrImage) {
-    qrBox.innerHTML = `<img src="${escapeHtml(config.paypalQrImage)}" alt="PayPal donation QR code">`;
+    qrBox.classList.add("qr-ready");
+    qrBox.innerHTML = `
+      <img
+        src="${escapeHtml(config.paypalQrImage)}"
+        alt="PayPal donation QR code"
+        loading="lazy"
+      >
+    `;
   }
 
   const fadeItems = qsa(".fade-up");
