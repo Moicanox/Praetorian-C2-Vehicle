@@ -169,8 +169,20 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
   border-style:dashed;
 }
 
-.doc-card { min-height:250px; display:flex; flex-direction:column; }
-.doc-card .btn { margin-top:auto; align-self:flex-start; }
+.doc-card {
+  min-height:250px;
+  display:flex;
+  flex-direction:column;
+}
+
+.doc-card > h3:first-child {
+  margin-top:0;
+}
+
+.doc-card .btn {
+  margin-top:auto;
+  align-self:flex-start;
+}
 
 .manual-downloads {
   display:flex;

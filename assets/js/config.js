@@ -15,8 +15,8 @@ window.PRAETORIAN_CONFIG = {
   // Companion tools distributed directly through the website.
   mapCacheBuilderUrl: "downloads/Praetorian_C2_Map_Cache_Builder.exe",
 
-  // Future resources: replace null when the related material is available.
-  trailerEmbedUrl: null,
+  // Official product trailer and future donation page.
+  trailerEmbedUrl: "https://www.youtube-nocookie.com/embed/XTJuKt8bzY0",
   paypalUrl: null,
 
   // PayPal donation QR code.
