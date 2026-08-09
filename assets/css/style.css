@@ -147,6 +147,19 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
 .page-hero p { color:var(--muted); font-size:1.1rem; max-width:760px; }
 .breadcrumb { color:var(--cyan-2); text-transform:uppercase; font-size:.74rem; font-weight:900; letter-spacing:.15em; }
 
+.plugin-page-hero { padding-bottom:82px; }
+.plugin-page-hero .hero-actions { margin-top:30px; }
+.plugin-cover { margin:0; overflow:hidden; border:1px solid var(--line); border-radius:var(--radius); background:#020405; box-shadow:var(--shadow); }
+.plugin-cover img { width:100%; aspect-ratio:1672/941; object-fit:cover; }
+.plugin-intro { grid-template-columns:1.15fr .85fr; gap:52px; }
+.plugin-body-copy { color:var(--muted); margin:18px 0 0; }
+.plugin-highlights { padding:32px; }
+.plugin-highlights h3 { font-size:1.4rem; }
+.plugin-highlights .list-clean { margin-top:22px; }
+.plugin-release { align-items:center; }
+.plugin-release .release-status { margin:0; max-width:680px; }
+.plugin-release-actions { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:12px; flex:0 0 auto; }
+
 .download-grid { display:grid; gap:18px; }
 .download-item { display:grid; grid-template-columns:58px 1fr auto; align-items:center; gap:18px; border:1px solid var(--line); background:var(--panel); border-radius:16px; padding:18px; }
 .download-item h3 { margin:0 0 4px; font-size:1.06rem; }
@@ -270,6 +283,7 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
   .hero::before { background:linear-gradient(90deg, rgba(3,6,8,.95), rgba(3,6,8,.65)), linear-gradient(0deg, rgba(3,6,8,1), transparent 45%); }
   .grid-3 { grid-template-columns:1fr 1fr; }
   .product-panel { grid-template-columns:1fr; }
+  .plugin-intro { gap:30px; }
   .product-visual { min-height:350px; }
   .footer-grid { grid-template-columns:1fr 1fr; }
 }
@@ -284,6 +298,7 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
   .section-head { display:block; }
   .grid-3, .grid-2 { grid-template-columns:1fr; }
   .release-strip { align-items:flex-start; flex-direction:column; }
+  .plugin-release-actions { width:100%; justify-content:flex-start; }
   .download-item { grid-template-columns:48px 1fr; }
   .download-item .btn { grid-column:1 / -1; }
   .footer-grid { grid-template-columns:1fr; }
