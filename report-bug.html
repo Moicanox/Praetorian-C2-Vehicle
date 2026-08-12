@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030608">
+  <meta name="description" content="Report a bug in Praetorian C2 Vehicle to the development team.">
+  <meta property="og:title" content="Report a Bug — Praetorian C2 Vehicle">
+  <meta property="og:description" content="Send a detailed Praetorian C2 Vehicle bug report to the development team.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/praetorian-splash.png">
+  <title>Report a Bug — Praetorian C2 Vehicle</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Praetorian C2 Vehicle home">
+      <img src="assets/images/praetorian-wordmark.png" alt="Praetorian C2 Vehicle">
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation"><a href="index.html">Home</a><a class="nav-cta" href="download.html">Download</a><a href="documentation.html">Documentation</a><a href="plugins.html">Plugins</a><a href="changelog.html">Changelog</a><a class="active" href="report-bug.html">Report Bug</a><a href="donate.html">Donate</a></nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">Support / Report a Bug</div>
+      <h1>Help us make Praetorian <span class="accent">better.</span></h1>
+      <p>Describe the problem and how to reproduce it. Your report will be sent privately to the Praetorian C2 Vehicle development team.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container bug-report-layout">
+      <aside class="card bug-report-guide fade-up" aria-labelledby="report-guide-title">
+        <div class="icon-box" aria-hidden="true">!</div>
+        <h2 id="report-guide-title">Before you send</h2>
+        <ul class="list-clean">
+          <li>Check that you are using the latest published version.</li>
+          <li>Include clear steps that consistently reproduce the issue.</li>
+          <li>Remove passwords, keys, coordinates, operational data and other sensitive information.</li>
+          <li>We may contact you by email if more details are needed.</li>
+        </ul>
+        <p class="report-email">Reports are delivered to<br><a href="mailto:praetorian.c2.it@gmail.com">praetorian.c2.it@gmail.com</a></p>
+      </aside>
+
+      <div class="card bug-report-card fade-up">
+        <div class="section-kicker">Bug report</div>
+        <h2>Tell us what happened.</h2>
+        <p class="form-intro">Fields marked with <span aria-hidden="true">*</span> are required.</p>
+
+        <form class="bug-report-form" action="https://formsubmit.co/praetorian.c2.it@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Praetorian C2 Vehicle bug report">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://moicanox.github.io/Praetorian-C2-Vehicle/report-sent.html">
+          <input type="hidden" name="_autoresponse" value="Thank you. Your Praetorian C2 Vehicle bug report has been received. The development team may contact you if more information is needed.">
+          <input class="form-honeypot" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="reporter-name">Name</label>
+              <input id="reporter-name" name="Name" type="text" maxlength="100" autocomplete="name" placeholder="Your name">
+            </div>
+            <div class="form-field">
+              <label for="reporter-email">Email <span aria-hidden="true">*</span></label>
+              <input id="reporter-email" name="email" type="email" maxlength="254" autocomplete="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-field">
+              <label for="affected-version">Affected version <span aria-hidden="true">*</span></label>
+              <input id="affected-version" name="Affected version" type="text" maxlength="50" placeholder="For example: 1.2.0" required>
+            </div>
+            <div class="form-field">
+              <label for="affected-component">Component <span aria-hidden="true">*</span></label>
+              <select id="affected-component" name="Component" required>
+                <option value="" selected disabled>Select a component</option>
+                <option>Vehicle application</option>
+                <option>ATAK plugin</option>
+                <option>Installation or update</option>
+                <option>Configuration</option>
+                <option>Documentation</option>
+                <option>Website or download</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field form-field-wide">
+              <label for="severity">Severity <span aria-hidden="true">*</span></label>
+              <select id="severity" name="Severity" required>
+                <option value="" selected disabled>Select the impact</option>
+                <option>Low — minor inconvenience</option>
+                <option>Medium — feature impaired, workaround available</option>
+                <option>High — essential feature unavailable</option>
+                <option>Critical — crash, data loss or security impact</option>
+              </select>
+            </div>
+            <div class="form-field form-field-wide">
+              <label for="summary">Short summary <span aria-hidden="true">*</span></label>
+              <input id="summary" name="Summary" type="text" maxlength="160" placeholder="A concise title for the problem" required>
+            </div>
+            <div class="form-field form-field-wide">
+              <label for="description">What happened? <span aria-hidden="true">*</span></label>
+              <textarea id="description" name="What happened" rows="6" maxlength="5000" placeholder="Describe the issue and any error message you saw." required></textarea>
+            </div>
+            <div class="form-field form-field-wide">
+              <label for="steps">Steps to reproduce <span aria-hidden="true">*</span></label>
+              <textarea id="steps" name="Steps to reproduce" rows="6" maxlength="5000" placeholder="1. Open…&#10;2. Select…&#10;3. Observe…" required></textarea>
+            </div>
+            <div class="form-field form-field-wide">
+              <label for="expected-result">Expected result</label>
+              <textarea id="expected-result" name="Expected result" rows="3" maxlength="2000" placeholder="What did you expect to happen?"></textarea>
+            </div>
+            <div class="form-field form-field-wide">
+              <label for="environment">Environment <span aria-hidden="true">*</span></label>
+              <textarea id="environment" name="Environment" rows="3" maxlength="2000" placeholder="Operating system, device model, ATAK version and any other relevant details." required></textarea>
+            </div>
+          </div>
+
+          <label class="form-consent" for="privacy-consent">
+            <input id="privacy-consent" name="Privacy consent" type="checkbox" value="Accepted" required>
+            <span>I consent to the processing of the information in this report for support purposes. I understand that it is transmitted through FormSubmit, a third-party service that may retain submissions for up to 30 days. <a href="https://formsubmit.co/privacy.pdf" target="_blank" rel="noopener noreferrer">Privacy information</a>. <span aria-hidden="true">*</span></span>
+          </label>
+
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send bug report</button>
+            <p>Your email address will only be used to follow up on this report.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/images/praetorian-wordmark.png" alt="Praetorian C2 Vehicle">
+        <p class="footer-copy">Free vehicle-oriented Command &amp; Control software. Installer, documentation, configuration resources and future TAK interoperability plugins are distributed through GitHub Releases.</p>
+      </div>
+      <div class="footer-col"><h3>Product</h3><a href="download.html">Download</a><a href="documentation.html">Documentation</a><a href="plugins.html">Plugins</a></div>
+      <div class="footer-col"><h3>Project</h3><a href="changelog.html">Changelog</a><a href="report-bug.html">Report a bug</a><a href="https://github.com/Moicanox/Praetorian-C2-Vehicle">GitHub</a></div>
+      <div class="footer-col"><h3>Support</h3><a href="donate.html">Donate</a><a href="documentation.html#configuration">Configuration</a><a href="documentation.html#requirements">Requirements</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Praetorian C2 Vehicle. All rights reserved.</span><span>Hosted with GitHub Pages.</span></div>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -261,6 +261,56 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
   object-fit:contain;
 }
 
+.bug-report-layout { display:grid; grid-template-columns:minmax(250px, .7fr) minmax(0, 1.5fr); gap:24px; align-items:start; }
+.bug-report-guide { position:sticky; top:100px; }
+.bug-report-guide h2 { font-size:1.65rem; margin:24px 0 12px; letter-spacing:-.025em; }
+.bug-report-guide .list-clean { margin-top:22px; }
+.report-email { margin:28px 0 0 !important; padding-top:22px; border-top:1px solid var(--line); color:var(--muted); }
+.report-email a { color:var(--cyan-2); font-weight:800; overflow-wrap:anywhere; }
+.bug-report-card { padding:38px; }
+.bug-report-card h2 { font-size:clamp(2rem, 4vw, 3rem); margin-bottom:10px; letter-spacing:-.04em; }
+.form-intro { margin:0 0 30px; color:var(--muted); }
+.bug-report-form { position:relative; z-index:1; }
+.form-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:20px; }
+.form-field { display:flex; flex-direction:column; gap:8px; }
+.form-field-wide { grid-column:1 / -1; }
+.form-field label { color:#dce6ea; font-size:.9rem; font-weight:800; }
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width:100%;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:rgba(2,8,11,.76);
+  color:var(--silver);
+  font:inherit;
+  line-height:1.45;
+  padding:13px 14px;
+  outline:none;
+  transition:border-color .2s ease, box-shadow .2s ease, background .2s ease;
+}
+.form-field input,
+.form-field select { min-height:50px; }
+.form-field textarea { resize:vertical; min-height:104px; }
+.form-field input::placeholder,
+.form-field textarea::placeholder { color:#71838d; }
+.form-field select { color-scheme:dark; }
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus { border-color:var(--cyan); background:rgba(5,17,22,.95); box-shadow:0 0 0 3px rgba(37,220,242,.12); }
+.form-consent { display:flex; align-items:flex-start; gap:12px; margin-top:24px; color:var(--muted); font-size:.88rem; cursor:pointer; }
+.form-consent input { width:18px; height:18px; margin:3px 0 0; flex:0 0 auto; accent-color:var(--cyan); }
+.form-consent a { color:var(--cyan-2); }
+.form-actions { display:flex; align-items:center; gap:18px; margin-top:28px; }
+.form-actions p { margin:0; color:var(--muted); font-size:.84rem; }
+.form-honeypot { position:absolute !important; width:1px !important; height:1px !important; overflow:hidden !important; clip:rect(1px, 1px, 1px, 1px) !important; white-space:nowrap !important; }
+.report-success-section { min-height:calc(100vh - 76px); display:grid; align-items:center; }
+.report-success { max-width:760px; margin:0 auto; padding:56px; text-align:center; }
+.report-success h1 { font-size:clamp(2.8rem, 7vw, 5rem); margin:18px auto; }
+.report-success > p { max-width:620px; margin:0 auto; color:var(--muted); font-size:1.08rem; }
+.report-success .hero-actions { justify-content:center; }
+.success-mark { width:70px; height:70px; display:grid; place-items:center; margin:0 auto 24px; border-radius:50%; border:1px solid rgba(112,229,177,.45); background:rgba(112,229,177,.08); color:var(--success); font-size:2rem; font-weight:900; box-shadow:0 0 35px rgba(112,229,177,.12); }
+
 .site-footer { border-top:1px solid var(--line); background:#020405; padding:54px 0 28px; }
 .footer-grid { display:grid; grid-template-columns:1.4fr repeat(3, .7fr); gap:34px; }
 .footer-logo { width:260px; margin-bottom:15px; }
@@ -285,6 +335,8 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
   .product-panel { grid-template-columns:1fr; }
   .plugin-intro { gap:30px; }
   .product-visual { min-height:350px; }
+  .bug-report-layout { grid-template-columns:1fr; }
+  .bug-report-guide { position:static; }
   .footer-grid { grid-template-columns:1fr 1fr; }
 }
 
@@ -304,6 +356,12 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
   .footer-grid { grid-template-columns:1fr; }
   .footer-bottom { flex-direction:column; }
   .donate-box { padding:30px 20px; }
+  .bug-report-card { padding:28px 20px; }
+  .form-grid { grid-template-columns:1fr; }
+  .form-field-wide { grid-column:auto; }
+  .form-actions { align-items:stretch; flex-direction:column; }
+  .form-actions .btn { width:100%; }
+  .report-success { padding:38px 22px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
