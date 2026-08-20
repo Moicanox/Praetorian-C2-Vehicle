@@ -15,8 +15,9 @@ window.PRAETORIAN_CONFIG = {
   // Companion tools distributed directly through the website.
   mapCacheBuilderUrl: "downloads/Praetorian_C2_Map_Cache_Builder.exe",
 
-  // Official product trailer and PayPal donation page.
+  // Official product videos and PayPal donation page.
   trailerEmbedUrl: "https://www.youtube-nocookie.com/embed/XTJuKt8bzY0",
+  legioModeEmbedUrl: "https://www.youtube-nocookie.com/embed/xthBBkkECR4",
   paypalUrl: "https://www.paypal.com/donate/?business=FYBHAP5ZYU2W4&amount=5&no_recurring=0&item_name=Praetorian+Vehicle+is+a+free+C2+platform.+Your+donation+supports+development%2C+maintenance%2C+and+future+improvements.&currency_code=EUR",
 
   // PayPal donation QR code.

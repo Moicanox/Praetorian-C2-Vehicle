@@ -42,6 +42,11 @@
     trailer.innerHTML = `<iframe src="${escapeHtml(config.trailerEmbedUrl)}" title="Praetorian C2 Vehicle trailer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
   }
 
+  const legioModeVideo = qs("[data-legio-mode-video]");
+  if (legioModeVideo && config.legioModeEmbedUrl) {
+    legioModeVideo.innerHTML = `<iframe src="${escapeHtml(config.legioModeEmbedUrl)}" title="Praetorian C2 Vehicle LEGIO Mode walkthrough" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+  }
+
   const qrBox = qs("[data-paypal-qr]");
   if (qrBox && config.paypalQrImage) {
     qrBox.classList.add("qr-ready");
@@ -118,7 +123,7 @@
           <div>
             <span class="badge">${escapeHtml(label)}</span>
             <h3>${escapeHtml(asset.name)}</h3>
-            <p>${escapeHtml(size)} · ${Number(asset.download_count || 0).toLocaleString()} downloads</p>
+            <p>${escapeHtml(size)}</p>
           </div>
           <a class="btn" href="${escapeHtml(asset.browser_download_url)}">Download</a>
         </article>`;

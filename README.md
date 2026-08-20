@@ -21,6 +21,7 @@ Edit `assets/js/config.js`:
 - `logisticsTemplateUrl`: URL to the logistics configuration template.
 - `dataSheetUrl`: future technical data sheet URL.
 - `trailerEmbedUrl`: YouTube/Vimeo embed URL.
+- `legioModeEmbedUrl`: YouTube embed URL for the LEGIO Mode walkthrough.
 - `paypalUrl`: PayPal donation link.
 - `paypalQrImage`: local or remote QR image URL.
 
