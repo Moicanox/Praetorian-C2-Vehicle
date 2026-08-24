@@ -248,6 +248,14 @@ can help identify interoperability issues, bugs and useful capabilities for futu
 
 ---
 
+# License and Third-Party Notices
+
+Praetorian C2 Vehicle is distributed under the [P2CM Unified Software License Agreement](P2CM_UNIFIED_SOFTWARE_LICENSE_AGREEMENT.txt).
+
+Third-party software, libraries, runtimes, tools, assets, data, and services retain their respective licenses. See [Third-Party Software Notices](THIRD_PARTY_NOTICES.txt) for component details, attributions, and applicable terms.
+
+---
+
 # Bug Reports and Feedback
 
 Bug reports and technical feedback can be submitted through the official website:

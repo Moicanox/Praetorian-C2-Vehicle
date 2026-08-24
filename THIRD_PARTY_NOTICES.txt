@@ -1,0 +1,364 @@
+PRAETORIAN C2 VEHICLE 1.1 - THIRD-PARTY SOFTWARE NOTICES
+======================================================================
+
+Last distribution audit: 12 August 2026
+
+This product contains or uses the third-party components identified below.
+Each component is the property of its respective copyright holder and is
+licensed under its own terms. Third-party licenses apply only to the relevant
+components and are not replaced or restricted by the P2CM proprietary license.
+
+Where a conflict exists, the applicable third-party license controls for the
+third-party component. No author, contributor, foundation, standards body,
+data provider, or service provider listed here endorses Praetorian C2.
+
+License identifiers are provided as a practical index. The authoritative terms
+are the complete license and notice texts supplied by the copyright holders.
+Copies already embedded by upstream projects remain in the distributed JAR
+files under META-INF; OpenJDK notices are under runtime/legal.
+Full texts of the common GPL-2.0, LGPL-2.1, MPL-2.0, Apache-2.0,
+BSD-3-Clause, and MIT licenses are installed under
+licenses/third_party_licenses.
+
+Source-code requests concerning GPL, LGPL, or MPL components included in this
+distribution may be sent to praetorian.c2.it@gmail.com. Unmodified upstream
+source is also available at the project URLs identified below. Praetorian does
+not modify the GStreamer runtime binaries while assembling this distribution.
+
+======================================================================
+1. BUNDLED JAVA RUNTIME AND USER-INTERFACE PLATFORM
+======================================================================
+
+OpenJDK runtime 17.0.16
+  License: GPL-2.0-only with Classpath Exception and applicable assembly
+  exceptions; bundled third-party notices have their own terms.
+  Notices and full applicable texts: runtime/legal
+  Project: https://openjdk.org/
+
+OpenJFX / JavaFX 17.0.10
+  Modules: base, graphics, controls, web, media, and swing.
+  License: GPL-2.0-only with Classpath Exception, plus third-party notices.
+  Project: https://openjfx.io/
+
+Kotlin standard library 2.1.21
+  Includes kotlin-stdlib, kotlin-stdlib-jdk7, and kotlin-stdlib-jdk8.
+  License: Apache-2.0
+  Project: https://kotlinlang.org/
+
+JetBrains Compose Multiplatform / Compose Desktop
+  Versions present: 1.9.3; Material 3 1.9.0; Material Icons 1.7.3.
+  Includes animation, foundation, layout, material, runtime, UI, graphics,
+  geometry, text, unit, util, tooling-preview, back-handler, saveable, and
+  desktop application runtime modules.
+  License: Apache-2.0
+  Project: https://github.com/JetBrains/compose-multiplatform
+
+AndroidX / JetBrains AndroidX support modules
+  Versions present include Annotation 1.9.1, Collection 1.5.0,
+  Lifecycle 2.9.4/2.9.6, SavedState 1.3.3/1.3.6, Arch Core 2.2.0,
+  and Compose Runtime 1.9.4.
+  License: Apache-2.0
+  Project: https://github.com/androidx/androidx
+
+Skiko 0.9.22.2
+  License: Apache-2.0
+  Project: https://github.com/JetBrains/skiko
+
+Skia graphics engine, bundled through Skiko
+  License: BSD-3-Clause, with additional third-party component notices.
+  Project: https://skia.org/
+
+JetBrains Runtime API 1.5.0, JetBrains Annotations 23.0.0,
+JSpecify 1.0.0, kotlinx-coroutines 1.8.1, kotlinx-datetime 0.7.1,
+kotlinx-serialization-core 1.7.3, and kotlinx-atomicfu 0.23.2
+  License: Apache-2.0
+  Projects: https://github.com/JetBrains
+
+======================================================================
+2. BUNDLED JVM LIBRARIES
+======================================================================
+
+JSON-java (org.json) 20240303
+  License declared by this artifact: Public Domain.
+  Project: https://github.com/stleary/JSON-java
+
+Xerial SQLite JDBC 3.51.1.0
+  Driver license: Apache-2.0; bundled Zentus-derived portions retain their
+  BSD-style terms; the SQLite engine itself is Public Domain.
+  License files: inside sqlite-jdbc JAR under META-INF/maven/org.xerial/
+  Project: https://github.com/xerial/sqlite-jdbc
+
+osm4j 1.4.1
+  Modules: core, geometry, PBF, PBF full runtime, TBO, utils, and XML.
+  License: GNU Lesser General Public License (LGPL), as specified by osm4j.
+  Project and source: https://github.com/topobyte/osm4j
+
+Topobyte support libraries and SlimJars Trove4j 1.0.1
+  Includes adt-geo, adt-graph, adt-multicollections, compact-io, dynsax,
+  jgs, jsi, jsi-and-jts, jts-medical-kit, jts-utils, large-scale-file-io,
+  melon-io, commons-cli-helper, and the split Trove4j primitive collection
+  modules used transitively by osm4j.
+  Licenses: the licenses published with the respective Topobyte/SlimJars
+  projects, including LGPL terms where specified.
+  Projects: https://github.com/topobyte
+
+Apache POI 5.2.5, POI OOXML 5.2.5, POI OOXML Lite 5.2.5,
+Apache XMLBeans 5.2.0, Apache PDFBox 2.0.30, and FontBox 2.0.30
+  License: Apache-2.0
+  Required LICENSE and NOTICE files remain embedded in the corresponding JARs.
+  Projects: https://poi.apache.org/ and https://pdfbox.apache.org/
+
+Apache Commons
+  Commons CLI 1.3.1, Codec 1.17.1, Collections 4.4, Compress 1.27.1,
+  IO 2.16.1, Lang 3.17.0, Logging 1.2, Math 3.6.1, and Text 1.13.0.
+  License: Apache-2.0
+  Required LICENSE and NOTICE files remain embedded in the corresponding JARs.
+  Project: https://commons.apache.org/
+
+Apache Log4j API 2.21.1
+  License: Apache-2.0
+  Required LICENSE and NOTICE files remain embedded in the JAR.
+  Project: https://logging.apache.org/log4j/
+
+TwelveMonkeys ImageIO 3.13.0
+  Modules: common-image, common-io, common-lang, imageio-core,
+  imageio-metadata, and imageio-tiff.
+  License: BSD-3-Clause
+  Project: https://github.com/haraldk/TwelveMonkeys
+
+metadata-extractor 2.19.0 and Adobe XMP Core 6.1.11
+  Licenses: Apache-2.0 (metadata-extractor); BSD-3-Clause (XMP Core).
+  Projects: https://github.com/drewnoakes/metadata-extractor and
+  https://github.com/adobe/XMP-Toolkit-SDK
+
+jSerialComm 2.11.4
+  Dual license offered by the project: Apache-2.0 OR LGPL-3.0.
+  This distribution elects the Apache-2.0 option.
+  Project: https://github.com/Fazecast/jSerialComm
+
+Mission Command mil-sym-java 2.5.7
+  License: Apache-2.0
+  Project: https://github.com/missioncommand/mil-sym-java
+
+JSVG 1.6.1
+  License: MIT
+  Project: https://github.com/weisJ/jsvg
+
+Geodesy 1.1.3
+  License: Apache-2.0
+
+LocationTech JTS Core 1.19.0
+  License: EPL-2.0 and EDL-1.0, as offered by the project.
+  Project: https://github.com/locationtech/jts
+
+Google Protocol Buffers Java and Java Lite 4.29.2
+  License: BSD-3-Clause
+  Project: https://github.com/protocolbuffers/protobuf
+
+Google Guava 19.0
+  License: Apache-2.0
+  Project: https://github.com/google/guava
+
+LZ4 Java 1.8.0
+  License: Apache-2.0
+  Project: https://github.com/lz4/lz4-java
+
+SLF4J API 2.0.16
+  License: MIT
+  Project: https://www.slf4j.org/
+
+Joda-Time 2.13.0
+  License: Apache-2.0
+  Project: https://www.joda.org/joda-time/
+
+SparseBitSet 1.3
+  License: Apache-2.0
+  Project: https://github.com/brettwooldridge/SparseBitSet
+
+CurvesAPI 1.08
+  License: BSD-style license supplied by the project.
+
+======================================================================
+3. BUNDLED GSTREAMER MULTIMEDIA RUNTIME
+======================================================================
+
+GStreamer 1.22.12 (Windows x86-64 MSVC runtime)
+  Core framework and the majority of official plugins: LGPL-2.1-or-later.
+  Project: https://gstreamer.freedesktop.org/
+  Source archives: https://gstreamer.freedesktop.org/src/
+
+The effective plugin licenses below were read from this exact distribution
+using gst-inspect-1.0. GStreamer documentation states that this field reports
+the effective plugin license. A plugin may link to an external library whose
+terms determine that effective license.
+
+  GPL plugins:
+    - x264 (gstx264.dll; gst-plugins-ugly), which uses libx264-157
+    - dtsdec (gstdtsdec.dll; gst-plugins-bad), which uses libdca
+    Effective license reported: GPL.
+    Source projects:
+      https://gitlab.freedesktop.org/gstreamer/gstreamer
+      https://code.videolan.org/videolan/x264
+      https://www.videolan.org/developers/libdca.html
+
+  LGPL plugins:
+    195 inspected plugins, including GStreamer core/base/good/bad/ugly
+    components and gst-libav. gst-libav reports LGPL in this package.
+
+  FFmpeg/libav 5.0.3
+    Bundled libraries include avcodec 59.18.100, avformat 59.16.100, and
+    avutil 57.17.100. Effective gst-libav plugin license reported: LGPL.
+    FFmpeg is available under LGPL/GPL terms depending on build options.
+    Project and source: https://ffmpeg.org/
+
+  BSD plugins:
+    dtls, openh264, and sctp.
+
+  MIT/X11 plugins:
+    cdg, claxon, dav1d, ffv1, gif, hsv, lewton, rav1e, reqwest, and rspng.
+
+  Mozilla Public License plugins:
+    MPL: aws, fallbackswitch, fmp4, hlssink3, json, livesync, mp4, ndi,
+    raptorq, regex, rsaudiofx, rsclosedcaption, rstracers, rsvideofx,
+    textahead, textwrap, togglerecord, uriplaylistbin, and webrtchttp.
+    MPL-2.0: rsonvif, rsrtp, and rswebrtc.
+    These components originate from the GStreamer Rust plugins project:
+    https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs
+
+  Plugins whose embedded metadata reports license "unknown":
+    amrnb, amrwbdec, mpegpsdemux, and rtponvif.
+    Their inclusion does not relicense them under the P2CM license. Consult
+    their source modules and linked-library terms before redistribution in
+    any jurisdiction.
+
+  Other native dependencies include GLib, GObject, GIO, libjpeg, libpng,
+  zlib, FreeType, Fontconfig, HarfBuzz, Cairo, Pango, OpenSSL and additional
+  codec/container libraries. Each remains under the license supplied by its
+  upstream project and by the GStreamer binary distribution.
+
+IMPORTANT CODEC AND PATENT NOTICE
+  Copyright permission does not necessarily grant patent or trademark rights.
+  H.264/AVC, H.265/HEVC, AAC, DTS, AMR and other media technologies may be
+  covered by patents or separate licensing programs in some jurisdictions.
+  Users and distributors are responsible for determining whether additional
+  permissions are required for their intended use or territory.
+
+Authoritative license texts:
+  GPL-2.0:  https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+  LGPL-2.1: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+  MPL-2.0:  https://www.mozilla.org/MPL/2.0/
+  Apache-2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+======================================================================
+4. ONLINE MAPS, DATA, AND NETWORK SERVICES
+======================================================================
+
+Use of a service is governed by its current provider terms and policies.
+Attribution displayed over the map is part of the application and must not be
+removed or obscured.
+
+OpenStreetMap data and Standard tiles
+  Data copyright: OpenStreetMap contributors.
+  Data license: Open Data Commons Open Database License (ODbL) 1.0.
+  Copyright and attribution: https://www.openstreetmap.org/copyright
+  Tile policy: https://operations.osmfoundation.org/policies/tiles/
+
+Humanitarian OpenStreetMap Team / openstreetmap.fr HOT tiles
+  Attribution: OpenStreetMap contributors and HOT.
+  Terms: https://www.hotosm.org/ and the applicable tile-provider policy.
+
+OpenTopoMap
+  Map data: OpenStreetMap contributors, ODbL; map rendering: CC-BY-SA.
+  Terms and attribution: https://opentopomap.org/about
+
+CARTO Positron and Dark Matter basemaps
+  Attribution: OpenStreetMap contributors and CARTO.
+  Terms: https://carto.com/legal/
+
+Esri World Imagery and World Terrain
+  Attribution includes Esri and the source providers displayed by the app.
+  Terms: https://www.esri.com/en-us/legal/terms/full-master-agreement
+
+USGS The National Map imagery
+  Credit displayed by the app: USDA, USGS The National Map: Orthoimagery.
+  Policies: https://www.usgs.gov/information-policies-and-instructions
+
+OpenRailwayMap
+  Map data: OpenStreetMap contributors, ODbL; rendering and service subject
+  to OpenRailwayMap terms.
+  Project: https://www.openrailwaymap.org/
+
+OpenSeaMap seamark tiles
+  Attribution: OpenSeaMap contributors; service and data subject to the
+  OpenSeaMap project terms.
+  Project: https://www.openseamap.org/
+
+OpenStreetMap Nominatim search service
+  Subject to the Nominatim usage policy and OpenStreetMap attribution.
+  Policy: https://operations.osmfoundation.org/policies/nominatim/
+
+======================================================================
+5. ICONS AND OTHER ASSETS
+======================================================================
+
+SVG Repo icons
+  Source catalog: https://www.svgrepo.com/
+  Licensing information: https://www.svgrepo.com/page/licensing/
+  The developer identifies the following original asset pages. The asset-page
+  metadata available during the 12 August 2026 audit identifies the retrievable
+  pages as CC0 1.0 and the uploader as SVG Repo. Each linked asset page remains
+  the authoritative provenance record if its metadata differs or later changes.
+
+    - Off Button Power Button:
+      https://www.svgrepo.com/svg/268357/off-button-power-button
+    - Maps:
+      https://www.svgrepo.com/svg/356557/maps
+    - Ammo Tin:
+      https://www.svgrepo.com/svg/137926/ammo-tin
+    - Bomb On Palm:
+      https://www.svgrepo.com/svg/477408/bomb-on-palm
+    - Info Circle:
+      https://www.svgrepo.com/svg/513832/info-circle
+    - Donate Solid:
+      https://www.svgrepo.com/svg/313850/donate-solid
+    - Camera:
+      https://www.svgrepo.com/svg/533059/camera
+    - Chat Bubbles:
+      https://www.svgrepo.com/svg/509802/chat-bubbles
+    - Drone:
+      https://www.svgrepo.com/svg/487302/drone
+    - Fire:
+      https://www.svgrepo.com/svg/503027/fire
+    - Setting:
+      https://www.svgrepo.com/svg/500685/setting
+    - Network Wired:
+      https://www.svgrepo.com/svg/532872/network-wired
+    - Tools:
+      https://www.svgrepo.com/svg/353320/tools
+    - Drawing Ruler:
+      https://www.svgrepo.com/svg/198966/drawing-ruler
+
+  CC0 1.0 legal code:
+  https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+
+Material Icons used through Compose Material Icons
+  License: Apache-2.0
+  Project: https://fonts.google.com/icons
+
+======================================================================
+6. BUILD AND INSTALLATION TOOLS (NOT PART OF THE APPLICATION RUNTIME)
+======================================================================
+
+Gradle and Gradle Wrapper
+  License: Apache-2.0
+  Project: https://gradle.org/
+
+Inno Setup
+  Used to create the Windows installer; its own license applies to the tool.
+  Inno Setup itself is not installed as part of Praetorian C2.
+  Project: https://jrsoftware.org/isinfo.php
+
+======================================================================
+END OF THIRD-PARTY SOFTWARE NOTICES
+======================================================================

@@ -1,0 +1,179 @@
+P2CM UNIFIED SOFTWARE LICENSE AGREEMENT
+
+This Software License Agreement ("Agreement") governs the proprietary portions of the
+P2CM software suite, including but not limited to P2CM Mobile, P2CM Vehicle, and
+P2CM Server (the complete distribution is collectively referred to as the "Software").
+The original P2CM code and materials owned by the Licensor are referred to as the
+"P2CM Proprietary Components".
+
+The Software distribution also contains or uses third-party software, libraries,
+runtimes, tools, assets, data, and services (collectively, "Third-Party Components").
+Third-Party Components are expressly excluded from the P2CM Proprietary Components
+and from the proprietary restrictions of this Agreement. They are licensed by their
+respective copyright holders under the terms identified in THIRD_PARTY_NOTICES.txt
+and in the other license and notice files included with the Software.
+
+This Agreement is entered into between:
+
+Licensor:
+Lorenzo Bonanni
+Contact: praetorian.c2.it@gmail.com
+
+and the individual or legal entity using the Software ("You").
+
+By downloading, installing, accessing, or using the Software, You agree to be bound
+by the terms and conditions of this Agreement.
+
+----------------------------------------------------------------------
+1. LICENSE GRANT
+----------------------------------------------------------------------
+
+Subject to the terms of this Agreement, the Licensor grants You a perpetual,
+non-exclusive, no-charge, royalty-free license to use the P2CM Proprietary Components
+in object code form for lawful purposes.
+
+This proprietary license applies to the P2CM Proprietary Components in the Mobile,
+Vehicle, and Server editions. It does not replace, restrict, or modify any license
+granted by a third-party licensor.
+
+----------------------------------------------------------------------
+2. RESTRICTIONS
+----------------------------------------------------------------------
+
+Except to the extent that applicable law or a Third-Party Component license expressly
+permits the relevant activity, You shall NOT, with respect to the P2CM Proprietary
+Components:
+
+- Sell, sublicense, rent, lease, or commercially redistribute the Software
+- Reverse engineer, decompile, disassemble, or attempt to derive the source code
+- Modify, alter, translate, or create derivative works based on the Software
+- Remove, obscure, or alter copyright, trademark, or proprietary notices
+- Use the Software for any unlawful purpose
+
+----------------------------------------------------------------------
+3. DISTRIBUTION
+----------------------------------------------------------------------
+
+Redistribution of the P2CM Proprietary Components is permitted only in unmodified
+object code form and must include this License Agreement in its entirety.
+
+You may not impose additional restrictions or additional license terms on the P2CM
+Proprietary Components beyond those contained in this Agreement. Nothing in this
+section limits rights granted under a Third-Party Component license or permits You to
+remove, replace, or contradict a third party's license, copyright, attribution, source
+availability notice, disclaimer, or other required notice.
+
+----------------------------------------------------------------------
+4. OWNERSHIP AND INTELLECTUAL PROPERTY
+----------------------------------------------------------------------
+
+The P2CM Proprietary Components are licensed, not sold.
+
+All right, title, and interest in and to the P2CM Proprietary Components, including
+all intellectual property rights in them, remain exclusively with the Licensor.
+
+The Licensor claims no ownership of Third-Party Components. Rights in Third-Party
+Components are granted only by their respective licensors. No rights in the P2CM
+Proprietary Components are granted except as expressly set forth in this Agreement.
+
+----------------------------------------------------------------------
+5. THIRD-PARTY COMPONENTS
+----------------------------------------------------------------------
+
+Third-Party Components are provided under separate license terms. The applicable
+third-party terms control solely with respect to those components and prevail over
+this Agreement if there is a conflict. In particular, nothing in this Agreement is
+intended to prohibit copying, modification, reverse engineering for debugging,
+replacement, relinking, redistribution, or access to source code where an applicable
+third-party license grants such a right.
+
+The files THIRD_PARTY_NOTICES.txt, the license and notice material embedded in JAR
+files, the OpenJDK material under runtime/legal, and any other files in the licenses
+directory form part of the Software's third-party notices. These notices do not imply
+endorsement of P2CM by any third party.
+
+Some multimedia formats, codecs, map services, data sets, or other functionality may
+be subject to patents, access policies, API terms, or other legal requirements that
+are separate from copyright licenses. No patent, content, data, or service-provider
+license is granted by this Agreement unless expressly stated.
+
+----------------------------------------------------------------------
+6. NO WARRANTY
+----------------------------------------------------------------------
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE".
+
+THE LICENSOR DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
+ACCURACY, RELIABILITY, NON-INFRINGEMENT, AND QUIET ENJOYMENT.
+
+The Licensor does not warrant that the Software will operate without interruption
+or be error-free, nor that defects will be corrected.
+
+----------------------------------------------------------------------
+7. LIMITATION OF LIABILITY
+----------------------------------------------------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE LICENSOR
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR EXEMPLARY
+DAMAGES, INCLUDING BUT NOT LIMITED TO:
+
+- LOSS OF DATA OR INFORMATION
+- LOSS OF OPERATIONAL CAPABILITY
+- LOSS OF PROFITS OR REVENUE
+- SYSTEM FAILURE OR DOWNTIME
+- SECURITY BREACHES OR UNAUTHORIZED ACCESS
+
+ARISING OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THE SOFTWARE,
+EVEN IF THE LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+----------------------------------------------------------------------
+8. OPERATIONAL USE DISCLAIMER
+----------------------------------------------------------------------
+
+The Software is NOT certified, approved, or intended for safety-critical,
+life-critical, or mission-critical use.
+
+Any tactical, operational, or mission-oriented use of the Software is performed
+entirely at the user's own risk and responsibility.
+
+----------------------------------------------------------------------
+9. LEGAL COMPLIANCE
+----------------------------------------------------------------------
+
+You agree to comply with all applicable local, national, and international laws,
+rules, and regulations governing the use of the Software.
+
+You are solely responsible for determining whether use of the Software is lawful
+in your jurisdiction.
+
+----------------------------------------------------------------------
+10. TERMINATION
+----------------------------------------------------------------------
+
+This Agreement is effective until terminated.
+
+The Licensor may terminate this Agreement immediately if You breach any provision
+of this Agreement.
+
+Upon termination, You must cease all use of the P2CM Proprietary Components and
+destroy all copies in your possession or control. Termination of this Agreement does
+not terminate rights independently granted under Third-Party Component licenses.
+
+----------------------------------------------------------------------
+11. MISCELLANEOUS
+----------------------------------------------------------------------
+
+If any provision of this Agreement is held to be invalid or unenforceable,
+the remaining provisions shall remain in full force and effect.
+
+Failure to enforce any right or provision of this Agreement shall not constitute
+a waiver of such right or provision.
+
+This Agreement constitutes the entire agreement between You and the Licensor
+regarding the P2CM Proprietary Components and supersedes all prior or contemporaneous
+agreements, communications, or understandings concerning those components, whether
+written or oral. It does not supersede any Third-Party Component license.
+
+----------------------------------------------------------------------
+END OF AGREEMENT
