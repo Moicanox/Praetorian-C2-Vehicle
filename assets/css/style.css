@@ -315,6 +315,10 @@ h1 .accent, h2 .accent { color:var(--cyan-2); text-shadow:0 0 28px rgba(37,220,2
 .footer-grid { display:grid; grid-template-columns:1.4fr repeat(3, .7fr); gap:34px; }
 .footer-logo { width:260px; margin-bottom:15px; }
 .footer-copy { color:var(--muted); max-width:450px; }
+.footer-social { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
+.social-link { display:inline-flex; align-items:center; gap:10px; min-height:42px; padding:8px 13px; border:1px solid var(--line); border-radius:12px; color:#dce6ea; background:rgba(8,20,27,.68); text-decoration:none; font-size:.9rem; font-weight:800; transition:.2s ease; }
+.social-link:hover { color:white; border-color:rgba(255,69,0,.65); background:rgba(255,69,0,.1); transform:translateY(-2px); }
+.social-link img { width:24px; height:24px; flex:0 0 auto; }
 .footer-col h3 { font-size:.86rem; text-transform:uppercase; letter-spacing:.14em; color:var(--cyan-2); }
 .footer-col a { display:block; text-decoration:none; color:var(--muted); margin:9px 0; }
 .footer-col a:hover { color:white; }
